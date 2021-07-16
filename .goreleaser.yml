@@ -30,6 +30,7 @@ builds:
       - linux
     goarch:
       - amd64
+    gobinary: "go1.40.1"
     binary: '{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}'
   -
     mod_timestamp: '{{ .CommitTimestamp }}'
